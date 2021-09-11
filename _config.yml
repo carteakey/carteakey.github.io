@@ -1,22 +1,24 @@
-
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
-
+minimal_mistakes_skin: "default" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
 title: kartikey chauhan
+title_separator: "|"
 email: kartikeychauhan27@gmail.com
 description: "data science, kartikey chauhan, blog"
-baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kartikey-chauhan.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-
+search: true
 
 author:
-  name     : "Kartikey Chauhan"
-  avatar   : "images/caves.jpg"
-  bio      : "Aspiring Data Scientist"
-  location : "India"
-  linkedin : "kartikeychauhan"
-  github   : "kartikey-chauhan"
+  name: "Kartikey Chauhan"
+  avatar: "assets/images/caves.jpg"
+  bio: "Aspiring Data Scientist"
+  location: "India"
+  linkedin: "kartikeychauhan"
+  github: "kartikey-chauhan"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:kartikeychauhan27@gmail.com
 
 # footer:
 #   links:
@@ -28,6 +30,10 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
 
 defaults:
   # _posts
@@ -35,8 +41,12 @@ defaults:
       path: ""
       type: posts
     values:
-      show_date: true
+      layout: single
+      author_profile: true
       read_time: true
+      comments: true
+      share: true
+      related: true
 
   # _pages
   - scope:
