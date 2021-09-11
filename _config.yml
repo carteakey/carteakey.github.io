@@ -22,7 +22,7 @@
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 
-title: Kartikey Chauhan
+title: kartikey chauhan
 email: kartikeychauhan27@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -33,13 +33,43 @@ url: "https://kartikey-chauhan.github.io" # the base hostname & protocol for you
 twitter_username: jekyllrb
 github_username:  kartikey-chauhan
 
-# Build settings
-# theme: minima
-# theme: minimal-mistakes-jekyll
+
+author:
+  name     : "Kartikey Chauhan"
+  avatar   : "/images/caves.jpg"
+  bio      : "Data Science | Python"
+  location : "India"
+
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/kartikey-chauhan"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/mmistakes"
+
+
+
+
 
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+
+
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+      read_time: true
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
