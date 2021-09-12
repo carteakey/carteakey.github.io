@@ -83,6 +83,12 @@ comments:
 #         async>
 # </script>
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-YEXBESHXGD"
+    anonymize_ip: false # default
+
 
 exclude:
   - .sass-cache/
