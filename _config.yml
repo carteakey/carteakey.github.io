@@ -11,7 +11,7 @@ repository: kartikey-chauhan/kartikey-chauhan.github.io
 
 
 author:
-  name: "Kartikey Chauhan"
+  name: "kartikey chauhan"
   avatar: "assets/images/caves.jpg"
   bio: "Aspiring Data Scientist"
   location: "India"
@@ -57,6 +57,15 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
 
 include: ["_pages"]
 

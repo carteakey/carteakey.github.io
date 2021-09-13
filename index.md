@@ -1,5 +1,6 @@
 ---
 layout: home
+title: " "
 header:
-  image: "assets/images/home.jpg"
+  overlay_image: "assets/images/home.png"
 ---

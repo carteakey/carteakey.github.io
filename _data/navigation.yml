@@ -4,3 +4,5 @@ main:
     url: /about/
   - title: "resume"
     url: /assets/docs/08-08-2021_resume.pdf  
+  - title : "portfolio"
+    url: /portfolio/
