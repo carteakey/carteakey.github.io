@@ -1,6 +1,6 @@
 ---
 layout: home
-title: " "
+title: "Home"
 header:
-  overlay_image: "assets/images/home.png"
+  overlay_color : "#333"
 ---

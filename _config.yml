@@ -1,6 +1,7 @@
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "default" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
+locale: "en"
 title: kartikey chauhan
 title_separator: "|"
 email: kartikeychauhan27@gmail.com
