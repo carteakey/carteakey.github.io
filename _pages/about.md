@@ -2,9 +2,6 @@
 layout : single
 title: "About"
 permalink: /about/
-header:
-  # overlay_image: "assets/images/firewatch.jpg"
-  overlay_color : "#333"
 ---
 
 >The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn, and relearn. – *Alvin Toffler*

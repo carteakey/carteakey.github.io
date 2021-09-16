@@ -3,9 +3,7 @@ layout: single
 title: "Portfolio"
 permalink: /portfolio/
 header:
-    #overlay_image: /assets/images/valheim.png
-    #overlay_color : "#333
-    #caption: "Photo by [Joel Filipe](https://unsplash.com/@joelfilip) on [Unsplash](https://unsplash.com)"
+    overlay_color : "#333"
 author_profile: true
 classes: wide
 

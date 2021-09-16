@@ -1,8 +1,10 @@
 # main links links
 main:
+  - title: "home"
+    url: /index.html
   - title: "about"
     url: /about/
   - title: "resume"
-    url: /assets/docs/08-08-2021_resume.pdf  
+    url: /resume/ 
   - title : "portfolio"
     url: /portfolio/

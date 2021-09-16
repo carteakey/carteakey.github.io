@@ -1,18 +1,18 @@
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "default" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+minimal_mistakes_skin: "dirt" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
 locale: "en"
-title: kartikey chauhan
+title: kartikey-chauhan
 title_separator: "|"
 email: kartikeychauhan27@gmail.com
-description: "data science, kartikey chauhan, blog"
-url: "https://kartikey-chauhan.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+description: "data science, blog, kartikey chauhan"
+url: "https://kartikey-chauhan.github.io" 
 search: true
 repository: kartikey-chauhan/kartikey-chauhan.github.io
-
+masthead_title: " "
 
 author:
-  name: "kartikey chauhan"
+  name: "Kartikey Chauhan"
   avatar: "assets/images/caves.jpg"
   bio: "Aspiring Data Scientist"
   location: "India"
@@ -23,11 +23,18 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:kartikeychauhan27@gmail.com
 
+# breadcrumbs: true
+
+google_site-verification : nfOijgRb5tLaTrvVb9-m4F7H3saL6q9tz5rzrMccbDE
+
 # footer:
 #   links:
 #     - label: "GitHub"
 #       icon: "fab fa-fw fa-github"
 #       url: "https://github.com/kartikey-chauhan"
+
+atom_feed:
+  hide: true
 
 plugins:
   - jekyll-feed
@@ -74,32 +81,18 @@ include: ["_pages"]
 comments:
   provider: "giscus"
   giscus:
-    repo_id              : "MDEwOlJlcG9zaXRvcnk0MDQ0MjczNTQ=" 
-    category_name        : "Announcements" 
-    category_id          : "DIC_kwDOGBsSWs4B_Bna"
-    discussion_term      : "pathname" 
-    reactions_enabled    : '1' 
-    theme                : "light"
-
-# <script src="https://giscus.app/client.js"
-#         data-repo="kartikey-chauhan/kartikey-chauhan.github.io"
-#         data-repo-id="MDEwOlJlcG9zaXRvcnk0MDQ0MjczNTQ="
-#         data-category="Announcements"
-#         data-category-id="DIC_kwDOGBsSWs4B_Bna"
-#         data-mapping="pathname"
-#         data-reactions-enabled="1"
-#         data-emit-metadata="0"
-#         data-theme="light"
-#         crossorigin="anonymous"
-#         async>
-# </script>
+    repo_id: "MDEwOlJlcG9zaXRvcnk0MDQ0MjczNTQ="
+    category_name: "Announcements"
+    category_id: "DIC_kwDOGBsSWs4B_Bna"
+    discussion_term: "pathname"
+    reactions_enabled: "1"
+    theme: "light"
 
 analytics:
   provider: "google-gtag"
   google:
     tracking_id: "G-YEXBESHXGD"
-    anonymize_ip: false # default
-
+    anonymize_ip: false 
 
 exclude:
   - .sass-cache/
