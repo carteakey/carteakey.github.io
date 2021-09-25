@@ -2,10 +2,6 @@
 layout: single
 title: "Portfolio"
 permalink: /portfolio/
-header:
-    overlay_color : "#333"
-author_profile: true
-classes: wide
 
 feature_row1:
   - image_path: assets/images/recomovi.png
@@ -24,7 +20,7 @@ feature_row1:
 
 ## Skills
 
-**Languages** : Python, PL/SQL, HTML/CSS, Bash, Java
+**Languages** : Python, PL/SQL, HTML/CSS, Java
 
 **Tools**: Jupyter Notebook, Visual Studio Code, Git, Bash, Excel, WSL, PL/SQL Developer
 
