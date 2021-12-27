@@ -6,25 +6,26 @@ permalink: /portfolio/
 feature_row1:
   - image_path: assets/images/recomovi.png
     title: "Recomovi"
-    alt: "Content-based movie recommendation system & IMDb dataset generator written in Python"
     excerpt: "Content-based movie recommendation system & IMDb dataset generator written in Python"
     image_caption: "[View the App](https://share.streamlit.io/kartikey-chauhan/recomovi)"
-    btn_label: "Git Repo"
+    btn_label: "GitHub"
     url: "https://github.com/kartikey-chauhan/recomovi"
     btn_class: "btn--primary"
     tags: 
         - Web Scraping
-        - recommender system
+        - recommendation system
 
 ---
 
 ## Skills
 
-**Languages** : Python, PL/SQL, HTML/CSS, Java
+**Languages** : Python \| PL/SQL \| HTML/CSS \| Java \| Oracle Database
 
-**Tools**: Jupyter Notebook, Visual Studio Code, Git, Bash, Excel, WSL, PL/SQL Developer
+**Tools & Libraries**: Git \| Linux \| Flask \| Tkinter \| Pandas \| NumPy \| scikit-learn \| Matplotlib \| MS Office & Excel
 
-**Libraries**: NumPy, Pandas, Scikit-learn, matplotlib, seaborn, nltk, BeautifulSoup, PyTorch, Flask, Tkinter
+**IT Skills**: ServiceNow \| Oracle E-Business Suite \| FlexDeploy \| SonarQube
+
+**Business**: Quote-to-Cash (Q2C) process \| Source-to-Pay (S2P) process \| Service Reporting \| Supply Chain
 
 ## Projects
 
