@@ -15,21 +15,23 @@ feature_row1:
         - Web Scraping
         - recommendation system
 
+
+feature_row2:
+  - image_path: assets/images/er_diagram.png
+    title: "Flask Hotel Billing"
+    excerpt: "Web application for hotel billing and printing invoices using Flask and PostgresSQL"
+    image_caption: "[View the App](https://flask-hotel-billing.herokuapp.com)"
+    btn_label: "GitHub"
+    url: "https://github.com/kartikey-chauhan/flask-hotel-billing"
+    btn_class: "btn--primary"
+    tags: 
+        - flask
+        - postgres
+        - bootstrap
 ---
-
-## Skills
-
-**Languages** : Python \| PL/SQL \| HTML/CSS \| Java \| Oracle Database
-
-**Tools & Libraries**: Git \| Linux \| Flask \| Tkinter \| Pandas \| NumPy \| scikit-learn \| Matplotlib \| MS Office & Excel
-
-**IT Skills**: ServiceNow \| Oracle E-Business Suite \| FlexDeploy \| SonarQube
-
-**Business**: Quote-to-Cash (Q2C) process \| Source-to-Pay (S2P) process \| Service Reporting \| Supply Chain
 
 ## Projects
 
 {% include feature_row id="feature_row1" type="left" %}
-
-
+{% include feature_row id="feature_row2" type="left" %}
 
