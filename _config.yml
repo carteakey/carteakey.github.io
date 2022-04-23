@@ -79,14 +79,19 @@ defaults:
 include: ["_pages"]
 
 comments:
-  provider: "giscus"
-  giscus:
-    repo_id: "MDEwOlJlcG9zaXRvcnk0MDQ0MjczNTQ="
-    category_name: "Announcements"
-    category_id: "DIC_kwDOGBsSWs4B_Bna"
-    discussion_term: "pathname"
-    reactions_enabled: "1"
-    theme: "light"
+  provider: "disqus"
+  disqus:
+    shortname: "kartikeychauhan"
+
+# comments:
+#   provider: "giscus"
+#   giscus:
+#     repo_id: "MDEwOlJlcG9zaXRvcnk0MDQ0MjczNTQ="
+#     category_name: "Announcements"
+#     category_id: "DIC_kwDOGBsSWs4B_Bna"
+#     discussion_term: "pathname"
+#     reactions_enabled: "1"
+#     theme: "light"
 
 analytics:
   provider: "google-gtag"
