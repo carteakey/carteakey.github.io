@@ -7,31 +7,27 @@ feature_row1:
   - image_path: assets/images/recomovi.png
     title: "Recomovi"
     excerpt: "Content-based movie recommendation system & IMDb dataset generator written in Python"
-    image_caption: "[View the App](https://share.streamlit.io/kartikey-chauhan/recomovi)"
-    btn_label: "GitHub"
     url: "https://github.com/kartikey-chauhan/recomovi"
+    btn_label: "GitHub"
     btn_class: "btn--primary"
-    tags: 
-        - Web Scraping
-        - recommendation system
-
+    tags:
+      - Web Scraping
+      - recommendation system
 
 feature_row2:
   - image_path: assets/images/er_diagram.png
     title: "Flask Hotel Billing"
     excerpt: "Web application for hotel billing and printing invoices using Flask and PostgresSQL"
-    image_caption: "[View the App](https://flask-hotel-billing.herokuapp.com)"
     btn_label: "GitHub"
     url: "https://github.com/kartikey-chauhan/flask-hotel-billing"
     btn_class: "btn--primary"
-    tags: 
-        - flask
-        - postgres
-        - bootstrap
+    tags:
+      - flask
+      - postgres
+      - bootstrap
 ---
 
 ## Projects
 
 {% include feature_row id="feature_row1" type="left" %}
 {% include feature_row id="feature_row2" type="left" %}
-

@@ -1,12 +1,12 @@
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default" 
+minimal_mistakes_skin: "default"
 
 locale: "en"
 title: kartikey-chauhan
 title_separator: "|"
 email: kartikeychauhan27@gmail.com
 description: "data science, blog, kartikey chauhan"
-url: "https://kartikey-chauhan.github.io" 
+url: "https://kartikey-chauhan.github.io"
 search: true
 repository: kartikey-chauhan/kartikey-chauhan.github.io
 masthead_title: " "
@@ -18,14 +18,11 @@ author:
   location: "India"
   linkedin: "kartikeychauhan"
   github: "kartikey-chauhan"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:kartikeychauhan27@gmail.com
+  email: "kartikeychauhan27@gmail.com"
 
 # breadcrumbs: true
 
-google_site-verification : nfOijgRb5tLaTrvVb9-m4F7H3saL6q9tz5rzrMccbDE
+google_site-verification: nfOijgRb5tLaTrvVb9-m4F7H3saL6q9tz5rzrMccbDE
 
 # footer:
 #   links:
@@ -97,7 +94,7 @@ analytics:
   provider: "google-gtag"
   google:
     tracking_id: "G-YEXBESHXGD"
-    anonymize_ip: false 
+    anonymize_ip: false
 
 exclude:
   - .sass-cache/
@@ -110,3 +107,6 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+# fixes "No GitHub API authentication" error
+github: [metadata]
