@@ -159,12 +159,12 @@ A known workaround is to config git to run single-threaded. Also look at `git gc
 git config --global pack.threads "1"
 ```
 
-##### Pros
+#### Pros
 
 - It's free.
 - You have access to the full git functionality.
 
-##### Cons
+#### Cons
 
 - iSH does not support Shortcuts. (that can be used to further streamline the sync process.)
 - The git commands may be less performant in iSH.
@@ -184,13 +184,13 @@ Credits to [rsteele](https://forum.obsidian.md/t/mobile-setting-up-ios-git-based
 - The folder will now be in sync with the repository contents i.e. your notes.
 - Whenever you update your notes in your desktop, just open Working Copy and pull the changes.
 
-##### Pros
+#### Pros
 
 - It's fast and straightforward, and can easily handle a larger repository of notes.
 - It does not require command-line operations (if that is cumbersome).
 - It supports Apple Shortcuts, you can configure Working Copy to pull when the Obsidian app is opened, and add & push on app exit. That's quite the automation.
 
-##### Cons
+#### Cons
 
 - Pushing requires premium, meaning you cannot push the changes from your iOS device without a premium subscription. (essentially making a readonly copy of your notes.)
 
