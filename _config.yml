@@ -13,10 +13,9 @@ masthead_title: " "
 
 author:
   name: "Kartikey Chauhan"
-  avatar: "assets/images/mugshot.jpg"
-  bio: "Aspiring Data Scientist"
+  avatar: "assets/images/caves.jpg"
+  bio: "A Speck In The Universe"
   location: "India"
-  linkedin: "kartikeychauhan"
   github: "kartikey-chauhan"
   email: "kartikeychauhan27@gmail.com"
 
@@ -50,12 +49,11 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       show_date: true
       comments: true
       share: true
-      # related: true
 
   # _pages
   - scope:

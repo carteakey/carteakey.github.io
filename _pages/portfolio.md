@@ -4,9 +4,9 @@ title: "Portfolio"
 permalink: /portfolio/
 
 feature_row1:
-  - image_path: assets/images/recomovi.png
+  - image_path: assets/images/portfolio/recomovi.png
     title: "Recomovi"
-    excerpt: "Content-based movie recommendation system & IMDb dataset generator written in Python"
+    excerpt: "Content-based movie recommendation system & IMDb dataset generator written in Python."
     url: "https://github.com/kartikey-chauhan/recomovi"
     btn_label: "GitHub"
     btn_class: "btn--primary"
@@ -15,9 +15,9 @@ feature_row1:
       - recommendation system
 
 feature_row2:
-  - image_path: assets/images/er_diagram.png
+  - image_path: assets/images//portfolio/er_diagram.png
     title: "Flask Hotel Billing"
-    excerpt: "Web application for hotel billing and printing invoices using Flask and PostgresSQL"
+    excerpt: "Web application for hotel billing and printing invoices using Flask and PostgreSQL."
     btn_label: "GitHub"
     url: "https://github.com/kartikey-chauhan/flask-hotel-billing"
     btn_class: "btn--primary"
