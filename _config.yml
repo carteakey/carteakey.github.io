@@ -2,21 +2,21 @@ remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default"
 
 locale: "en"
-title: kartikey-chauhan
+title: carteakey
 title_separator: "|"
 email: kartikeychauhan27@gmail.com
 description: "data science, blog, kartikey chauhan"
-url: "https://kartikey-chauhan.github.io"
+url: "https://carteakey.github.io"
 search: true
-repository: kartikey-chauhan/kartikey-chauhan.github.io
+repository: carteakeyn/carteakey.github.io
 masthead_title: " "
 
 author:
   name: "Kartikey Chauhan"
   avatar: "assets/images/caves.jpg"
-  bio: "A Speck In The Universe"
+  bio: "Just Another Speck In The Universe"
   location: "India"
-  github: "kartikey-chauhan"
+  github: "carteakey"
   email: "kartikeychauhan27@gmail.com"
 
 # breadcrumbs: true

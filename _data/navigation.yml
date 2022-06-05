@@ -4,7 +4,5 @@ main:
     url: /index.html
   - title: "about"
     url: /about/
-  - title: "resume"
-    url: assets/docs/Kartikey-Chauhan-Resume.pdf
-  - title: "portfolio"
-    url: /portfolio/
+  - title: "projects"
+    url: /projects/

@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Portfolio"
-permalink: /portfolio/
+title: "Projects"
+permalink: /projects/
 
 feature_row1:
   - image_path: assets/images/portfolio/recomovi.png
