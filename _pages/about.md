@@ -10,7 +10,7 @@ Python & Data Science enthusiast from India.
 
 - Curious about everything.
 - Avid reader and gamer - it's my rocket fuel.
-- Eternal optimist.
+- Stubborn optimist.
 
 This is my personal blog to share my ideas and thoughts to people who might find it useful.
 

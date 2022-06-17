@@ -14,7 +14,7 @@ masthead_title: " "
 author:
   name: "Kartikey Chauhan"
   avatar: "assets/images/caves.jpg"
-  bio: "A Speck in the Universe"
+  bio: "A speck in the universe"
   location: "India"
   github: "carteakey"
   email: "kartikeychauhan27@gmail.com"
@@ -77,7 +77,7 @@ include: ["_pages"]
 comments:
   provider: "disqus"
   disqus:
-    shortname: "kartikeychauhan"
+    shortname: "carteakey"
 
 # comments:
 #   provider: "giscus"
