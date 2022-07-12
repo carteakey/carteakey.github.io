@@ -5,16 +5,16 @@ locale: "en"
 title: carteakey
 title_separator: "|"
 email: kartikeychauhan27@gmail.com
-description: "data science, blog, kartikey chauhan"
+description: "data science, blog, kartikey chauhan, carteakey"
 url: "https://carteakey.github.io"
 search: true
 repository: carteakey/carteakey.github.io
-masthead_title: " "
+masthead_title: "carteakey.github.io"
 
 author:
   name: "Kartikey Chauhan"
   avatar: "assets/images/caves.jpg"
-  bio: "A speck in the universe"
+  bio: "Engineer, Developer, Learner, Procastinator"
   location: "India"
   github: "carteakey"
   email: "kartikeychauhan27@gmail.com"
@@ -109,4 +109,3 @@ exclude:
 
 # fixes "No GitHub API authentication" error
 github: [metadata]
- 
