@@ -4,10 +4,15 @@ search: false
 ---
 
 /* system typefaces */
+/*default 
 $serif: Georgia, Times, serif !default;
-$sans-serif: "Lexend", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
-  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $monospace: "Cascadia Code", Monaco, Consolas, "Lucida Console", monospace !default;
+*/
+
+$serif: Georgia, Times, serif !default;
+$sans-serif: Lexend, sans-serif !default;
+$monospace: "Cascadia Code", monospace !default;
 
 @charset "utf-8";
 

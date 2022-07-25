@@ -2,6 +2,7 @@
 title: "Sync Obsidian notes between iOS and PC"
 date: 2022-06-05
 toc: true
+toc_sticky: true
 tags: [note-taking obsidian ios git markdown]
 excerpt: "Take your second brain everywhere with you"
 ---
