@@ -1,7 +1,10 @@
 ---
-title: "Challenges to AI-ML based search engines"
+title: "Challenges to AI-ML-based search engines"
+
 date: 2021-09-11
+
 tags: [ai privacy gdpr]
+
 excerpt: "Do privacy laws have an impact?"
 ---
 
@@ -41,7 +44,7 @@ People realize that there are trade-offs when they use digital services, but man
 
 ### Challenges to AI-ML based search engines
 
-One of the most revolutionary aspects of the [GDPR](https://gdpr-info.eu/) was the “right to be forgotten” — a debated right that is sometimes interpreted as empowering individuals to request the erasure of their information on the internet, most commonly from search engines or social networks.
+One o byf the most revolutionary aspects of the [GDPR](https://gdpr-info.eu/) was the “right to be forgotten” — a debated right that is sometimes interpreted as empowering individuals to request the erasure of their information on the internet, most commonly from search engines or social networks.
 
 This data privacy principle simply means that any European consumer can request that a corporation erase and permanently remove any data that has been saved about them.
 
@@ -65,6 +68,6 @@ Companies such as Google have already started to come up with new methods of pri
 
 Moreover, it also paves the way for new companies to showcase their privacy-oriented services, encouraging competition in an otherwise dominated industry.
 
-For example, DuckDuckGo is a search engine service that is gaining traction very rapidly and claims to collect no personal information, yet being nearly as effective as Google. It also offers users the non-existence of the "filter bubble" phenomenon of personalized search results i.e. the search results will effectively be the same, regardless of the user.
+For example, DuckDuckGo is a search engine service that is gaining traction very rapidly and claims to collect no personal information, yet is nearly as effective as Google. It also offers users the non-existence of the "filter bubble" phenomenon of personalized search results i.e. the search results will effectively be the same, regardless of the user.
 
-With a privacy-first approach to development and a better understanding of how data travels inside an organization, data laws and AI can coexist. In fact, increased regulation will likely have a good impact on AI's future, driving us to be more innovative and adopt a new perspective that balances data access with privacy.
+With a privacy-first approach to development and a better understanding of how data travels inside an organization, data laws and AI can coexist. IncreasedAI-ML-based regulation will likely have a good impact on AI's future, driving us to be more innovative and adopt a new perspective that balances data access with privacy.
