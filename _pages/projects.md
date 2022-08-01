@@ -6,7 +6,7 @@ permalink: /projects/
 feature_row1:
   - image_path: assets/images/portfolio/vizima.png
     title: "Vizima"
-    excerpt: "Company website for a hospitality company using Nextjs, Chakra UI & Typescript."
+    excerpt: "Website for a hospitality company using Nextjs, Chakra UI & Typescript."
     url: "https://www.vizima.in/"
     btn_label: "Website"
     btn_class: "btn--primary"
