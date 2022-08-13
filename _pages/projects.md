@@ -18,7 +18,7 @@ feature_row1:
 feature_row2:
   - image_path: assets/images/portfolio/recomovi.png
     title: "Recomovi"
-    excerpt: "Content-based movie recommendation system & IMDb dataset generator written in Python."
+    excerpt: "Content-based movie recommendation App & IMDb dataset generator written in Python."
     url: "https://github.com/carteakey/recomovi"
     btn_label: "GitHub"
     btn_class: "btn--primary"
