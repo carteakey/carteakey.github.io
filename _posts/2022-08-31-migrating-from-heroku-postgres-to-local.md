@@ -3,11 +3,11 @@ title: "Migrating Heroku Postgres Database to a Cloud VM"
 date: 2022-08-31
 toc: true
 toc_sticky: true
-tags: [heroku postgres oci]
+tags: [heroku Postgres oci]
 excerpt: "Here's what you can do"
 ---
 
-Heroku is ending it's free tier starting [28th November 2022](https://blog.heroku.com/next-chapter). It has always been the go-to free hosting solution for hobby devs and students for small & non-commercial projects. (RIP to a lot of tutorials that just went obsolete :D)
+Heroku is ending its free tier starting [28th November 2022](https://blog.heroku.com/next-chapter). It has always been the go-to free hosting solution for hobby devs and students for small & non-commercial projects. (RIP to a lot of tutorials that just went obsolete :D)
 
 One of the best advantages of Heroku's free tier was the Postgres database it offered.
 
@@ -20,7 +20,7 @@ For devs looking to migrate their apps & databases from Heroku to another free s
 - [Supabase](https://supabase.com/)
 - [Railway](https://railway.app/)
 
-While these options are great, there is another way to host your application with zero / minimal costs. These can be by running a VM by any of the top level providers.
+While these options are great, there is another way to host your application with zero / minimal costs. These can be by running a VM by any of the top-level providers.
 
 Or you could go complete r/selfhosted by running your application on a Raspberry Pi!
 {: .notice}
@@ -31,17 +31,17 @@ Or you could go complete r/selfhosted by running your application on a Raspberry
 - Digital Ocean's droplets
 - Oracle Cloud
 
-The advantage of these is that you will have a much more freedom of configuration, as well as them being much less likely to get expensive or get shut down - and have you repeat the painful cycle of migration.
+The advantage of these is that you will have much more freedom of configuration, as well as them being much less likely to get expensive or get shut down - and have you repeat the painful cycle of migration.
 
-The disadvantage is that you will have to manage the VM's yourself instead of the self managed infrastructure by something like Heroku, which will mean getting your hands dirty (and maybe, learn something along the way)
+The disadvantage is that you will have to manage the VMs yourself instead of the self-managed infrastructure by something like Heroku, which will mean getting your hands dirty (and maybe, learning something along the way)
 
-Ok, convinced yet? - now lets see how we can migrate the database from Heroku to one of these VM's.
+Ok, convinced yet? - now let's see how we can migrate the database from Heroku to one of these VMs.
 
 ### Exporting Database from Heroku
 
-I will be using the VM instance provided by Oracle Cloud (yes I know you hate Oracle). The up-side to this offering is that they give you two free cloud compute instances with 1 GB of memory each forever\* (whatever they mean by forever). That is one of the most generous offerings among all the cloud providers.
+I will be using the VM instance provided by Oracle Cloud (yes I know you hate Oracle). The upside to this offering is that they give you two free cloud compute instances with 1 GB of memory each forever\* (whatever they mean by forever). That is one of the most generous offerings among all the cloud providers.
 
-Let's start by taking a snapshot of your database in heroku. We will need the Heroku CLI. [Install](https://devcenter.heroku.com/articles/heroku-cli) it if you haven't already (either on your PC or on the VM itself will do).
+Let's start by taking a snapshot of your database in Heroku. We will need the Heroku CLI. [Install](https://devcenter.heroku.com/articles/heroku-cli) it if you haven't already (either on your PC or on the VM itself will do).
 
 ```bash
 curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
@@ -74,7 +74,7 @@ ssh -i <your_ssh_key_file> <vm_username>@<public_ip_of_vm>
 
 #### Installing PostgreSQL
 
-Install postgres by running these commands
+Install Postgres by running these commands
 
 ```bash
 # Create the file repository configuration:
@@ -91,7 +91,7 @@ sudo apt-get update
 sudo apt-get -y install postgresql
 ```
 
-Check whether the postgres service is now up
+Check whether the Postgres service is running
 
 ```bash
 service postgresql status
@@ -99,7 +99,7 @@ service postgresql status
 
 #### Creating new role and database
 
-PostgreSQL ships with "postgres" role/user & database by default. Let's create our own user & database for our app.
+PostgreSQL ships with "postgres" role/user & database by default. Let's create our user & database for our app.
 
 Create a user
 
@@ -118,9 +118,9 @@ Create a database
 sudo -u postgres createdb <your_db_name>
 ```
 
-To login into your database, we will need to create a new linux user, with the same name as our new user/role (See [Peer Authentication](https://www.postgresql.org/docs/current/auth-peer.html))
+To login into your database, we will need to create a new Linux user, with the same name as our new user/role (See [Peer Authentication](https://www.postgresql.org/docs/current/auth-peer.html))
 
-Create a new linux user (with same name as the postgres user)
+Create a new Linux user (with the same name as the Postgres user)
 
 ```bash
 sudo adduser <your_user_name>
@@ -151,7 +151,7 @@ Our database is up and running. Let's import the dump we created from Heroku.
 
 If the dump was downloaded to your PC, transfer it to the VM by using the `scp` command (this must be run from the PC)
 
-Transferring to home directory.
+Transferring to the home directory.
 
 ```bash
 scp -i /path/to/ssh_key /path/to/latest.dump <vm_username>@<public_ip_of_vm>:/home/ubuntu
