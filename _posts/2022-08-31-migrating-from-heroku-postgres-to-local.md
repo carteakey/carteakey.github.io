@@ -134,7 +134,7 @@ sudo -u <your_user_name> psql
 
 Use \conninfo to see your database connection details
 
-```psql
+```bash
 <your_user_name>=# \conninfo
 You are connected to database "<your_db_name>" as user <your_user_name> via socket in "/var/run/postgresql" at port "5432".
 ```
