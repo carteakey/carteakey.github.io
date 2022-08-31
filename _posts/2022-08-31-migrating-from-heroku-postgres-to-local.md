@@ -1,5 +1,5 @@
 ---
-title: "Migrating Heroku Postgres Database to Local Server/Cloud VM"
+title: "Migrating Heroku Postgres Database to a Cloud VM"
 date: 2022-08-31
 toc: true
 toc_sticky: true
@@ -22,7 +22,7 @@ For devs looking to migrate their apps & databases from Heroku to another free s
 
 While these options are great, there is another way to host your application with zero / minimal costs. These can be by running a VM by any of the top level providers.
 
-Or you could go complete r/selfhosted by running your application on a Raspberry Pi
+Or you could go complete r/selfhosted by running your application on a Raspberry Pi!
 {: .notice}
 
 - Google Cloud Platform
