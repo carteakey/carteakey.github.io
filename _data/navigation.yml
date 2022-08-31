@@ -6,5 +6,5 @@ main:
     url: /about/
   - title: "projects"
     url: /projects/
-  - title: "resume"
-    url: /assets/docs/Kartikey-Chauhan-Resume.pdf
+  # - title: "resume"
+  #   url: /assets/docs/Kartikey-Chauhan-Resume.pdf
