@@ -11,6 +11,6 @@
     "isolatedModules": true,
     // Astro will directly run your TypeScript code, no transpilation needed.
     "noEmit": true
-  },
-  "extends": "astro/tsconfigs/strict"
+  }
+  // "extends": "astro/tsconfigs/strict"
 }
