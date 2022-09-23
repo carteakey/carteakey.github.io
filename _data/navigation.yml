@@ -1,0 +1,10 @@
+# main links links
+main:
+  - title: "blog"
+    url: /index.html
+  - title: "about"
+    url: /about/
+  - title: "projects"
+    url: /projects/
+  # - title: "resume"
+  #   url: /assets/docs/Kartikey-Chauhan-Resume.pdf
