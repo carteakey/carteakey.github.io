@@ -1,5 +1,5 @@
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "default"
+minimal_mistakes_skin: "dirt"
 
 locale: "en"
 title: carteakey
@@ -15,19 +15,20 @@ author:
   name: "Kartikey Chauhan"
   avatar: "assets/images/caves.jpg"
   bio: "Engineer, Developer, Learner, Procastinator"
-  location: "Delhi, India"
+  location: "Toronto, Canada"
   github: "carteakey"
   email: "kartikeychauhan27@gmail.com"
+  twitter: KartyChauhan
+  linkedin: kartikeychauhan
 
-# breadcrumbs: true
+social:
+  type: Person
+  name: Kartikey Chauhan
+  links:
+    - "https://twitter.com/KartyChauhan"
+    - "https://www.linkedin.com/in/kartikeychauhan"
 
 google_site-verification: nfOijgRb5tLaTrvVb9-m4F7H3saL6q9tz5rzrMccbDE
-
-# footer:
-#   links:
-#     - label: "GitHub"
-#       icon: "fab fa-fw fa-github"
-#       url: "https://github.com/kartikey-chauhan"
 
 atom_feed:
   hide: true
@@ -63,31 +64,12 @@ defaults:
       layout: single
       author_profile: true
 
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: false
-      share: true
-
 include: ["_pages"]
 
 comments:
   provider: "disqus"
   disqus:
     shortname: "carteakey"
-
-# comments:
-#   provider: "giscus"
-#   giscus:
-#     repo_id: "MDEwOlJlcG9zaXRvcnk0MDQ0MjczNTQ="
-#     category_name: "Announcements"
-#     category_id: "DIC_kwDOGBsSWs4B_Bna"
-#     discussion_term: "pathname"
-#     reactions_enabled: "1"
-#     theme: "light"
 
 analytics:
   provider: "google-gtag"
@@ -109,3 +91,20 @@ exclude:
 
 # fixes "No GitHub API authentication" error
 github: [metadata]
+# breadcrumbs: true
+
+# comments:
+#   provider: "giscus"
+#   giscus:
+#     repo_id: "MDEwOlJlcG9zaXRvcnk0MDQ0MjczNTQ="
+#     category_name: "Announcements"
+#     category_id: "DIC_kwDOGBsSWs4B_Bna"
+#     discussion_term: "pathname"
+#     reactions_enabled: "1"
+#     theme: "light"
+
+# footer:
+#   links:
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       url: "https://github.com/kartikey-chauhan"

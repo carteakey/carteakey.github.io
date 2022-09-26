@@ -1,10 +1,7 @@
 ---
 title: "Challenges to AI-ML-based search engines"
-
 date: 2021-09-11
-
 tags: [ai privacy gdpr]
-
 excerpt: "Do privacy laws have an impact?"
 ---
 
