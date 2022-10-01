@@ -1,16 +1,21 @@
 ---
 layout: single
 title: "About"
+classes: wide
 permalink: /about/
 ---
+
+<figure style="width: 40%" class="align-right">
+  <img src="/assets/images/marine-drive.jpg" alt="">
+</figure>
 
 > The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn, and relearn. – _Alvin Toffler_
 
 Hi 👋🏼, Thanks for dropping by!
 
-My name's Kartikey, pronounced like kaar-tih-kay.
+My name's Kartikey, pronounced like _kaar-tih-kay_.
 
-Anglophonic people usually pronounce it as car-tea-key - which sort of stuck with me and hence is the [site](https://carteakey.dev)'s name.
+Anglophonic people usually pronounce it as **_carteakey_** - which sort of stuck with me and hence is the [site](https://carteakey.dev)'s name. 😬
 
 ## Work
 
@@ -36,7 +41,7 @@ Gaming is one of the many ways I like to spend my free time. I am a huge Soulsbo
 
 ## So, Yeah… That’s Me!
 
-Hey, you. You’re finally awake. You were trying to cross the border, right? Walked right into that Imperial ambush, same as us, and that thief over there.
+Hey, you. You’re finally awake. You were trying to cross the border, right? Walked right into that Imperial ambush, same as us, and that thief over there. 🤓
 
 <!--
 If you want to know more, here's what Urban Dictionary has to say about me (PS - i did not write this 😶‍🌫️)
