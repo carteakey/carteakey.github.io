@@ -6,14 +6,15 @@ title: carteakey
 title_separator: "|"
 email: kartikeychauhan27@gmail.com
 description: "data science, python, linux, blog, kartikey chauhan, carteakey"
-url: "https://carteakey.dev"
+url: "https://carteakey.github.io"
 search: true
 repository: carteakey/carteakey.github.io
-masthead_title: "carteakey.dev"
+masthead_title: "carteakey.github.io"
 
 author:
   name: "Kartikey Chauhan"
   avatar: "assets/images/caves.jpg"
+  bio: "1.01 ^365 = 37.7"
   location: "Toronto, Canada"
   github: "carteakey"
   email: "kartikeychauhan27@gmail.com"
