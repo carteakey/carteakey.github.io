@@ -5,17 +5,11 @@ classes: wide
 permalink: /about/
 ---
 
-<figure style="width: 45%" class="align-right">
-  <img src="/assets/images/marine-drive.jpg" alt="">
-</figure>
-
 > The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn, and relearn. – _Alvin Toffler_
 
 Hi 👋🏼, Thanks for dropping by!
 
-My name's Kartikey, pronounced as _kaar-tih-kay_.
-
-Most people pronounce it as **_carteakey_** instead - which sort of stuck with me and hence is the [site](https://carteakey.dev)'s name. 😬
+My name's Kartikey. Most people pronounce it as **_carteakey_** - which stuck with me and hence is the [site](https://carteakey.dev)'s name.
 
 ## Work
 
@@ -27,7 +21,7 @@ I won't bore you too much with my work history; that's what my [LinkedIn](https:
 
 ## Passion
 
-I’ve recently discovered my passion in Data Science and Machine Learning, and often try to create some [projects](https://carteakey.dev/projects) in that area.
+I’ve recently discovered my passion in Data Science and Machine Learning, and often try to work on some [projects](https://github.com/carteakey) in that area.
 
 ## Interests / Hobbies
 

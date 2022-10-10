@@ -38,6 +38,17 @@ feature_row3:
       - flask
       - postgres
       - bootstrap
+
+feature_row4:
+  - image_path: assets/images/portfolio/carteakey.png
+    title: "carteakey.github.io"
+    excerpt: "Blog and Portfolio Website. Built using Jekyll and Minimal Mistakes"
+    url: "https://www.carteakey.github.io/"
+    btn_label: "Website"
+    btn_class: "btn--primary"
+    tags:
+      - blog
+      - jekyll
 ---
 
 ---
@@ -45,3 +56,4 @@ feature_row3:
 {% include feature_row id="feature_row1" type="left" %}
 {% include feature_row id="feature_row2" type="left" %}
 {% include feature_row id="feature_row3" type="left" %}
+{% include feature_row id="feature_row4" type="left" %}

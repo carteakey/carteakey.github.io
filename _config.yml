@@ -6,10 +6,10 @@ title: carteakey
 title_separator: "|"
 email: kartikeychauhan27@gmail.com
 description: "data science, python, linux, blog, kartikey chauhan, carteakey"
-url: "https://carteakey.dev"
+url: "https://carteakey.github.io"
 search: true
 repository: carteakey/carteakey.github.io
-masthead_title: "carteakey.dev"
+masthead_title: "carteakey.github.io"
 
 author:
   name: "Kartikey Chauhan"
@@ -89,20 +89,3 @@ exclude:
 
 # fixes "No GitHub API authentication" error
 github: [metadata]
-# breadcrumbs: true
-
-# comments:
-#   provider: "giscus"
-#   giscus:
-#     repo_id: "MDEwOlJlcG9zaXRvcnk0MDQ0MjczNTQ="
-#     category_name: "Announcements"
-#     category_id: "DIC_kwDOGBsSWs4B_Bna"
-#     discussion_term: "pathname"
-#     reactions_enabled: "1"
-#     theme: "light"
-
-# footer:
-#   links:
-#     - label: "GitHub"
-#       icon: "fab fa-fw fa-github"
-#       url: "https://github.com/kartikey-chauhan"
