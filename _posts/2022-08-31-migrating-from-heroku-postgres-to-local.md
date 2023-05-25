@@ -3,6 +3,7 @@ title: "Migrating Heroku Postgres Database to a Cloud VM"
 date: 2022-08-31
 toc: true
 toc_sticky: true
+redirect_to: https://www.carteakey.dev/migrating-from-heroku-postgres-to-local/
 tags: [heroku Postgres oci]
 excerpt: "Here's what you can do"
 ---

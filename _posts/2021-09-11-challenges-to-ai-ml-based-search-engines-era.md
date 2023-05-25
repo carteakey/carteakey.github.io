@@ -2,6 +2,7 @@
 title: "Challenges to AI-ML-based search engines"
 date: 2021-09-11
 tags: [ai privacy gdpr]
+redirect_to: https://www.carteakey.dev/challenges-to-ai-ml-based-search-engines/
 excerpt: "Do privacy laws have an impact?"
 ---
 

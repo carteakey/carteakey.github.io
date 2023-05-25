@@ -2,6 +2,7 @@
 layout: single
 title: "About"
 classes: wide
+redirect_to: https://www.carteakey.dev/about/
 permalink: /about/
 ---
 

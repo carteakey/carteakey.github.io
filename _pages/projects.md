@@ -2,6 +2,7 @@
 layout: single
 classes: wide
 title: "Projects"
+redirect_to:  https://www.carteakey.dev/projects/
 permalink: /projects/
 
 feature_row1:
